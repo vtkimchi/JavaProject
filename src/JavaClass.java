@@ -1,3 +1,5 @@
+import java.awt.Dimension;
+
 import javax.swing.JFrame;
 
 /**
@@ -9,6 +11,12 @@ import javax.swing.JFrame;
  *
  */
 public class JavaClass extends JFrame {
+	
+	public JavaClass(){
+		setTitle("Demo Git");
+		setPreferredSize(new Dimension(500, 500));
+		pack();
+	}
 
 	/**
 	 * @param args
